@@ -1,0 +1,66 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "title": "Usman is a superhero",
+      "author": "Usman Ali"
+    },
+    {
+      "id": 3,
+      "title": "Faizan is spiderman",
+      "author": "Faizan Shahid"
+    },
+    {
+      "title": "Updated New Title",
+      "author": "Updated New Author",
+      "id": 4
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "id": 1,
+      "name": "Faizan Shahid",
+      "email": "dShahid@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": 2,
+      "name": "Usman ali",
+      "email": "uxmaanali@gmail.cm",
+      "password": "123456"
+    },
+    {
+      "id": 3,
+      "name": "Faizan Shahid",
+      "email": "admin@admin.com",
+      "password": "12345"
+    },
+    {
+      "id": 4,
+      "name": "Nizar bhai",
+      "email": "nizar@gmail.com",
+      "password": "Admin"
+    },
+    {
+      "id": 5,
+      "name": "sakjf",
+      "email": "lkasjf@fmailc.om",
+      "password": "admin"
+    }
+  ]
+}

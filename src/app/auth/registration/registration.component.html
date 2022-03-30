@@ -1,0 +1,56 @@
+<div class="container">
+  <div class="card">
+    <div class="card-header">
+      <h3>Registration</h3>
+    </div>
+    <div class="card-body">
+      <form [formGroup]="registerForm" (ngSubmit)="resgiterUser()">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            formControlName="name1"
+            placeholder="Enter Name"
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            formControlName="email1"
+            placeholder="Enter email"
+          />
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="password"
+            formControlName="password"
+            placeholder="Password"
+          />
+        </div>
+        <div class="form-group">
+          <label for="cpassword">Confirm Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="cpassword"
+            formControlName="cpassword"
+            placeholder="Confirm Password"
+          />
+        </div>
+        <button type="submit" class="btn btn-primary">Register</button>
+        <p>
+          Please Click here to
+          <a routerLink="/login" class="btn btn-link">Login</a>
+        </p>
+      </form>
+    </div>
+  </div>
+</div>

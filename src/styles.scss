@@ -1,1 +1,81 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* You can add global styles to this file, and also import other style files */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+}
+.card {
+  margin: 0 auto;
+  width: 400px;
+  padding: 28px;
+  box-shadow: 0px 2px 4px 4px #f2eaea;
+  border-radius: 9px;
+  text-align: center;
+}
+.form-group label {
+  display: block;
+  text-align: left;
+}
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+.form-group {
+  margin-bottom: 18px;
+}
+.invalid-feedback {
+  font-size: 12px;
+  color: red;
+  margin-top: 6px;
+  text-align: left;
+}
+
+table {
+  text-align: center;
+}
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 9px 30px;
+  border-spacing: unset;
+}
+th {
+  background-color: #f5f5f5;
+}
+.btn-primary {
+  text-decoration: none;
+  background: green;
+  color: #fff;
+  padding: 8px 20px;
+  display: inline-block;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+}
+
+.edit-button,
+.delete-button {
+  background-color: lightblue;
+  border: none;
+  margin-right: 12px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.delete-button {
+  background-color: lightcoral;
+}
